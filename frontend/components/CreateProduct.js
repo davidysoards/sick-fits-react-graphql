@@ -1,6 +1,5 @@
 import { useMutation } from '@apollo/client';
 import gql from 'graphql-tag';
-import { useState } from 'react';
 import { Router } from 'next/dist/client/router';
 import useForm from '../lib/useForm';
 import Form from './styles/Form';

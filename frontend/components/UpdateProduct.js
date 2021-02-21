@@ -59,12 +59,7 @@ export default function UpdateProduct({ id }) {
             price: inputs.price,
           },
         }).catch(console.error);
-        console.log(res);
-        // await createProduct();
-        // clearForm();
-        // Router.push({
-        //   pathname: `product/${data.createProduct.id}`,
-        // });
+        // console.log(res);
       }}
     >
       <DisplayError error={error || updateError} />
