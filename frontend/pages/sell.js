@@ -1,6 +1,6 @@
 import CreateProduct from '../components/CreateProduct';
 
-export default function sell() {
+export default function SellPage() {
   return (
     <>
       <CreateProduct />
